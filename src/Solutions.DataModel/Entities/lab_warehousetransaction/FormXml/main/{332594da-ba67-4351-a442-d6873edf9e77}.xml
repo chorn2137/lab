@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{332594da-ba67-4351-a442-d6873edf9e77}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{a732f6c7-6de9-4ca9-9cf1-7d7d2857b709}" IsUserDefined="1" name="generaltab" labelid="{8afdbc06-898b-4503-91e3-8fc66a76eee6}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1824defd-b651-40ef-a312-aefd21843a28}" labelid="{11333107-b5ce-4706-8061-91e7aa153609}" name="generalsection">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9ff36bf-1ef0-46ff-a8aa-0c4ea6f4e44d}" labelid="{b9423d8c-5c47-4eae-8784-d04c55cab9ee}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="lab_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lab_name" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2a4c9dc8-52fd-4d8c-9338-2f2b47c7f3ff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7dcb156f-e5f8-4347-b2ea-6323a6af26e9}" showlabel="false" labelid="{2aa2fade-dc70-4231-a62d-7b3a37714758}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9ecdb0de-44be-42eb-bf6d-4a38d576988d}" showlabel="false" labelid="{b97ecc14-39c9-4490-89ad-2f0af10cc8a0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e6cd2a49-4a00-44c6-830a-85ccd12faee8}" showlabel="false" labelid="{772aafb7-ac12-4b2a-83f1-d0b54094b1b0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b99f030d-d850-45c9-85db-b79790e1a4f1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d21c07f8-93e1-4da2-bfa3-60a985c63c0a}" showlabel="false" labelid="{240c18e1-dcd4-41b4-8cde-2f1fb345d1a4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9603fbc2-1863-4c2c-9f8c-6ef41f62bef4}" showlabel="false" labelid="{b538fc1a-fd06-453c-af66-6800ef6bac24}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e0bafded-4340-4147-b39b-5eb88f86c996}" showlabel="false" labelid="{e6b10364-747a-4ed7-889b-899233c1386a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Default Warehouse Transaction Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A default main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
